@@ -2,20 +2,38 @@
 {% load static %}
 
 {% block body %}
-<div class="col-8">
+
+<div class="col-sm-9">
     <div class="main-title">
-        <h2>Hi, I'm Ogungbemi Akinola!</h2>
+        <h2>Hi, I'm Ogungbemi Christopher Akinola!</h2>
         <p>Scroll down to see my work</p>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 img-container">
+            <a href="{% url 'page1' %}">
+                <h3>"TSIETSI"</h3>
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="{% url 'page2' %}">
+                <h3>Impossible in NOTHING</h3>
+            </a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 img-container">
+            <a href="{% url 'page3' %}">
+                <h3>"GHOST TWERKERS"</h3>
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="{% url 'page4' %}">
+                <h3>"THE PRINCE OF SOVENGA"</h3>
+            </a>
+        </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-6" style="background-color:yellow;">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="col-sm-6" style="background-color:pink;">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.    
-    </div>
-</div>
 {% endblock %}

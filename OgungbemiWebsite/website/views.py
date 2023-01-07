@@ -18,4 +18,4 @@ def page4(request):
     return render(request, "sovenga.html")
 
 def page5(request):
-    return render(request, "motho.html")
+    return render(request, "contact.html")

@@ -18,18 +18,20 @@
     <body>
         <div class="container-fluid">
             <div class="row content">
-                <div class="col-sm-4 sidenav">
-                    <h2>Ogungbemi Akinola</h3>
+                <div class="col-sm-3 sidenav">
+                    <a href="{% url 'index' %}">
+                        <h3>Ogungbemi Akinola</h3>
+                    </a>
                     <ul class="nav nav-stacked">
                         <br>
-                        <li class="active"><a href="{% url 'page1' %}">"TSIETSI" - Written & Directed by Ola-Kris Akinola</a></li>
+                        <li ><a href="{% url 'page1' %}">"TSIETSI" - Written & Directed by Ola-Kris Akinola</a></li>
                         <li><a href="{% url 'page2' %}">Impossible in NOTHING</a></li>
                         <li><a href="{% url 'page3' %}">"GHOST TWERKERS" - Written & Directed by Ola-kris Akinola</a></li>
                         <li><a href="{% url 'page4' %}">"THE PRINCE OF SOVENGA" by Ola-Kris Akinola</a></li>
                         <li><a href="{% url 'page5' %}">Motho ke Motho ka batho!</a></li>
                     </ul><br>
                 </div>
-
+            
                 {% block body %}
                 {% endblock %}
             </div>

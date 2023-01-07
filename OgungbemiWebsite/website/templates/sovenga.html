@@ -2,7 +2,8 @@
 {% load static %}
 
 {% block body %}
-<div class="col-8">
+
+<div class="col-sm-9">
     <div class="main-title">
         <h2>"THE PRINCE OF SOVENGA" by Ola-Kris Akinola</h2>
         <p> Under the powerful King Sekhurama, the erstwhile peaceful and prosperous Sovenga Kingdom suddenly, in spite of the arrival of the much expected Prince, 
@@ -10,15 +11,30 @@
            their messenger and choses to sacrifice his wives. What follows is a manipulation of the fate of Sovenga’s Oedipus Rex.
         </p>
     </div>
-</div>
 
-<div class="row">
-    <div class="col-sm-6" style="background-color:yellow;">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="{% static 'Sovenga2.jpg' %}" alt="Image 1" class="img-responsive">
+        </div>
+        <div class="col-sm-6">
+            <img src="{% static 'Sovenga4.jpg' %}" alt="Image 1" class="img-responsive">
+        </div>
     </div>
-    <div class="col-sm-6" style="background-color:pink;">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.    
+
+    <br>
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="{% static 'Prince.jpg' %}" alt="Image 1" class="img-responsive" style="width:100%" display: "block"; margin-left: "auto"; margin-right: "auto">
+        </div>
+        <div class="col-sm-6">
+            <img src="{% static 'Tickets2.jpg' %}" alt="Image 1" class="img-responsive" style="width:100%" display: "block"; margin-left: "auto"; margin-right: "auto">
+        </div>
     </div>
 </div>
+    
+    
+
+
+
 {% endblock %}

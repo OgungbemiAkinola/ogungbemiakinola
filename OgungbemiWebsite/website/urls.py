@@ -8,5 +8,5 @@ urlpatterns = [
     path("impossible", views.page2, name="page2"),
     path("ghost", views.page3, name="page3"),
     path("sovenga", views.page4, name="page4"),
-    path("motho", views.page5, name="page5")
+    path("contact", views.page5, name="page5")
 ]

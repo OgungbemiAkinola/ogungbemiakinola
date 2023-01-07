@@ -2,20 +2,16 @@
 {% load static %}
 
 {% block body %}
-<div class="col-8">
+<div class="col-sm-9">
     <div class="main-title">
         <h2>"TSIETSI" - Written & Directed by Ola-Kris Akinola</h2>
         <p>A single mother, whose livelihood hinges on running a liquor store, including trading sexual favours with male clients, would sum up courage and go back to school and become a success story.</p>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm-6" style="background-color:yellow;">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </div>
-    <div class="col-sm-6" style="background-color:pink;">
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.    
-    </div>
+<div class="col-sm-9">
+    <img src="{% static 'Tickets1.jpg' %}" alt="Image 1" class="img-responsive" style="width:100%">
+    <img src="{% static 'Tsietsi.jpg' %}" alt="Image 2" class="img-responsive" style="width:50%; display: block; margin-left: auto; margin-right: auto">
 </div>
+
 {% endblock %}
